@@ -83,10 +83,10 @@ var customScripts = {
     // Custom Navigation Events
     $(".next").click(function() {
       owl.trigger('owl.next');
-    })
+    });
     $(".prev").click(function() {
       owl.trigger('owl.prev');
-    })
+    });
   },
   bannerHeight: function() {
     var bHeight = $(".banner-container").height();
@@ -104,7 +104,7 @@ var customScripts = {
     customScripts.owlSlider();
     customScripts.bannerHeight();
   }
-}
+};
 $('document').ready(function() {
   customScripts.init();
 });
