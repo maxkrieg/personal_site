@@ -55,7 +55,7 @@ var customScripts = {
 
     $('#mainNav').onePageNav({
       currentClass: 'active',
-      changeHash: false,
+      changeHash: true,
       scrollSpeed: 950,
       scrollThreshold: 0.2,
       filter: '',
@@ -71,23 +71,6 @@ var customScripts = {
       }
     });
   },
-  slider: function() {
-    $('#da-slider').cslider({
-      autoplay: true,
-      bgincrement: 0
-    });
-  },
-  owlSlider: function() {
-    var owl = $("#owl-demo");
-    owl.owlCarousel();
-    // Custom Navigation Events
-    $(".next").click(function() {
-      owl.trigger('owl.next');
-    });
-    $(".prev").click(function() {
-      owl.trigger('owl.prev');
-    });
-  },
   bannerHeight: function() {
     var bHeight = $(".banner-container").height();
     $('#da-slider').height(bHeight);
@@ -100,11 +83,10 @@ var customScripts = {
     customScripts.onePageNav();
     customScripts.profile();
     customScripts.fancybox();
-    customScripts.slider();
-    customScripts.owlSlider();
     customScripts.bannerHeight();
   }
 };
+
 $('document').ready(function() {
   customScripts.init();
 });
