@@ -40,7 +40,7 @@ p {
     color: #BEBEBE;
 }
 
-.btn, .form-control, .team-socials i {
+.btn, .form-control {
     border-radius: 5px !important;
 }
 
@@ -234,7 +234,7 @@ background: none;
     }
 
 .page-section h2 {
-    color: #CC4646;
+    color: #333;
 }
 
 .page-section p {
@@ -251,7 +251,7 @@ background: none;
     /*background: url("../images/banner-bg.jpg") no-repeat;*/
     background-size: 100% 100%;
     background-size: cover;
-    margin-top: 60px;
+    margin-top: 75px;
     position: relative;
 }
 
@@ -300,11 +300,11 @@ background: none;
 	padding:60px 0;
 }
 /*Intro Content*/
-#aboutUs .txtHead{
+#aboutMe .txtHead{
 background:#fff;
 padding:20px 10px;
 }
-#aboutUs .txtHead .fa {
+#aboutMe .txtHead .fa {
 font-size: 60px;
 color: #5E5E5E;
 }
@@ -342,7 +342,7 @@ background-color: #CC4646;
 }
 
 #portfolio {
-    background:rgb(24, 24, 24);
+    background: #dddddd;
 }
 
     #portfolio img {
@@ -546,16 +546,22 @@ body {
         background: #eeeeee;
     }
 
-.socialIcons li {
+/*.socialIcons li {
     list-style: none;
     display: inline;
     margin-right: 6px;
-}
+}*/
 
 footer {
     border-top: 1px solid #e5e5e5;
     padding: 50px 0 20px 0;
     background: #fff;
+}
+
+#footer{
+  height: 8px;
+  text-align: center;
+  background: #333333;
 }
 
 .social a:hover {
@@ -670,6 +676,17 @@ footer {
     .portfolio-item .portfolio-desc .folio-info h5 {
         font-size: 11px;
     }
+
+    .banner-content h2 {
+        font-size: 2.2em;
+    }
+
+    .banner-content p {
+        font-size: 1.2em;
+    }
+
+
+
 }
 
 @media (max-width: 320px) {
@@ -698,4 +715,5 @@ footer {
         display: inline-block;
         margin: 7px;
     }
+
 }
