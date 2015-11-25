@@ -101,16 +101,17 @@ background: #E24040;
 
 .topHome {
     position: fixed;
-    bottom: 20px;
+    bottom: 0;
+    height: 40px;
     right: 20px;
     z-index: 5;
 	background: #CC4646;
+    padding: 10px 8px 0 8px;
 }
 
 .topHome .fa-2x {
 font-size: 20px;
 color:#fff;
-margin: 4px;
 }
 
 /* Header
@@ -562,6 +563,10 @@ footer {
     background: #fff;
 }
 
+iframe {
+   margin: 10px auto;
+}
+
 #footer{
   height: 8px;
   text-align: center;
@@ -589,6 +594,14 @@ footer {
     .contact ul li i {
         margin-right: 15px;
     }
+
+#blog {
+    margin-top: 25px;
+}
+
+.bottom-navbar {
+    z-index: 4;
+}
 
 /**** MEDIA QUERIES ******/
 
