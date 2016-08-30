@@ -1,363 +1,100 @@
 <!doctype html>
-<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!-->
+
 <html lang="en-gb" class="no-js">
-<!--<![endif]-->
-<head>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <!--[if lt IE 9]>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <![endif]-->
+    <meta name="description" content="personal website of max krieg">
+
     <title>Max Krieg</title>
-    <meta name="description" content="">
-    <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lte IE 8]>
-		<script type="text/javascript" src="http://explorercanvas.googlecode.com/svn/trunk/excanvas.js"></script>
-	<![endif]-->
-    <link rel="stylesheet" href="css/bootstrap.min.css"/>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
-    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <link href="font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet" />
-</head>
 
-<body>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+
     <header class="header">
-        <div class="container">
-            <nav class="navbar navbar-inverse" role="navigation">
-                <div class="navbar-header">
-                    <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="#" class="navbar-brand scroll-top logo"><b>Max Krieg</b></a>
-                </div>
-                <!--/.navbar-header-->
-                <div id="main-nav" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav" id="mainNav">
-                        <li class="active"><a href="#home" class="scroll-link">Home</a></li>
-                        <li><a href="#aboutMe" class="scroll-link">About Me</a></li>
-                        <li><a href="#skills" class="scroll-link">Skills</a></li>
-                        <li><a href="#portfolio" class="scroll-link">Portfolio</a></li>
-                        <li><a href="#contactMe" class="scroll-link">Contact Me</a></li>
-                    </ul>
-                </div>
-                <!--/.navbar-collapse-->
-            </nav>
-            <!--/.navbar-->
-        </div>
-        <!--/.container-->
+      <h1 class="header__name">Max Krieg</h1>
+      <h2 class="header__type">Full Stack Web Developer</h2>
+      <div class="header__icons">
+        <a href="https://twitter.com/kriegmax" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://github.com/maxkrieg" target="_blank"><i class="fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/maxkrieg" target="_blank"><i class="fa fa-linkedin"></i></a>
+      </div>
     </header>
-    <!--/.header-->
-    <div id="#top"></div>
-    <section id="home">
-        <div class="banner-container">
-            <img src="images/banner-bg.jpg" alt="banner" />
-            <div class="container banner-content">
-                <h2>Full Stack Web Developer</h2>
-                <p>Design | Create | Improve | Repeat</p>
-            </div>
+
+
+
+    <div class="main">
+
+      <div class="main__intro">
+        I’m a full stack web developer with prior experience in digital marketing strategy and data analytics.  I’m passionate about exploring new techniques to tackle difficult problems.  I believe that data shouldn't just answer questions, it should ask them, too.  I love to build and improve the systems around me, and am always learning.
+      </div>
+
+      <div class="main__content">
+        <div class="content__skills">
+          <h3 class="content__header">Skills</h3>
+          <ul class="content__list">
+            <li>Python</li>
+              <ul>
+                <li>Pybald</li>
+                <li>Flask</li>
+                <li>sqlalchemy</li>
+                <li>SciPy</li>
+                <li>NumPy</li>
+              </ul>
+            <li>JavaScript</li>
+              <ul>
+                <li>ReactJS</li>
+                <li>jQuery</li>
+                <li>AngularJS</li>
+                <li>node.js</li>
+              </ul>
+            <li>Database</li>
+              <ul>
+                <li>PostgreSQL</li>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+              </ul>
+            <li>Learn more of...</li>
+              <ul>
+                <li>C#</li>
+                <li>TypeScript</li>
+                <li>Go</li>
+              </ul>
+          </ul>
         </div>
-    </section>
 
-    <!--About-->
-    <section id="aboutMe" class="secPad">
-        <div class="container">
-            <div class="heading text-center">
-                <!-- Heading -->
-                <h2>I am Max, I build full stack web applications. I love <strong>clean code</strong>.</h2>
-                <p>I’m a full stack developer passionate about learning new frameworks to solve unique problems and furthering my technical knowledge portfolio. I currently develop software for <a href="http://pluralsight.com">Pluralsight</a>, and have background in data analytics and digital marketing.</p>
-            </div>
-            <div class="row">
-
-                <div class="col-md-3 text-center tileBox">
-                   <div class="txtHead"><i class="fa fa-code"></i>
-                    <h3>HTML5/<span class="id-color">CSS3</span></h3></div>
-                </div>
-
-                <div class="col-md-3 text-center tileBox">
-                    <div class="txtHead"><i class="fa fa-lightbulb-o"></i>
-                    <h3>JavaScript/<span class="id-color">jQuery</span></h3></div>
-                </div>
-
-                <div class="col-md-3 text-center tileBox">
-                    <div class="txtHead"><i class="fa fa-diamond"></i>
-                    <h3>Ruby<span class="id-color"> on Rails</span></h3></div>
-                </div>
-
-                <div class="col-md-3 text-center tileBox">
-                    <div class="txtHead"><i class="fa fa-cubes"></i>
-                    <h3>MEAN<span class="id-color"> Stack</span></h3></div>
-                </div>
-
-            </div>
+        <div class="content__projects">
+          <h3 class="content__header">Projects</h3>
+          <ul class="content__list">
+            <li><a href="#">Pluralsight assessments</a> ongoing</li>
+            <li><a href="#">mytinerary</a> April 2015</li>
+            <li><a href="#">TuringSurvey</a> May 2015</li>
+            <li><a href="#">OGRE App</a> June 2015</li>
+            <li><a href="#">arithmetic app</a> July 2015</li>
+            <li><a href="#">false summit</a> Jan 2016-current</li>
+          </ul>
         </div>
-    </section>
+      </div>
 
-    <!--Skills-->
-    <section id="skills" class="secPad white">
-    	<div class="container">
-        <div class="heading text-center">
-                <!-- Heading -->
-                <h2>My Skills</h2>
-                <p>I have back-end experience using Python, Ruby on Rails, and Node.js, and have implemented client-side and server-side rendering.  I have front end experience using AngularJS and React, as well as pure JavaScript and jQuery.</p>
-            </div>
-        	<div class="row">
-                <div class="col-sm-6">
-                    <h2>Front End <strong>Skills</strong></h2>
-                    <div class="row">
-                        <div class="col-md-2 skilltitle">HTML5</div>
-                        <div class="col-md-8">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-                                    <span class="sr-only">90% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2 skilltitle">CSS3</div>
-                        <div class="col-md-8">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                                    <span class="sr-only">70% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2 skilltitle">JavaScript</div>
-                        <div class="col-md-8">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
-                                    <span class="sr-only">65% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2 skilltitle">jQuery</div>
-                        <div class="col-md-8">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                                    <span class="sr-only">70% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2 skilltitle">AngularJS</div>
-                        <div class="col-md-8">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
-                                    <span class="sr-only">65% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2 skilltitle">React</div>
-                        <div class="col-md-8">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                                    <span class="sr-only">80% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <h2>Full Stack <strong>Skills</strong></h2>
-                    <div class="row">
-                        <div class="col-md-2 skilltitle">Ruby on Rails</div>
-                        <div class="col-md-8">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                                    <span class="sr-only">70% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2 skilltitle">Node.js</div>
-                        <div class="col-md-8">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                                    <span class="sr-only">70% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2 skilltitle">Express.js</div>
-                        <div class="col-md-8">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                                    <span class="sr-only">70% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2 skilltitle">Python</div>
-                        <div class="col-md-8">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                                    <span class="sr-only">60% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2 skilltitle">MongoDB</div>
-                        <div class="col-md-8">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
-                                    <span class="sr-only">65% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2 skilltitle">PostgresQL</div>
-                        <div class="col-md-8">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                                    <span class="sr-only">80% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-   <!--Portfolio-->
-    <section id="portfolio" class="page-section section clearfix secPad">
-        <div class="container">
-
-            <div class="heading text-center">
-                <!-- Heading -->
-                <h2>Portfolio</h2>
-                <p>The below projects were built during the <a href="https://generalassemb.ly/education/web-development-immersive" target="_blank">Web Development</a> course at General Assembly in Spring 2015.  While most of my code these days is written for Pluralsight, I have more side projects brewing and am always tinkering!</p>
-                <p>Check out what's in my pipeline on <a href="https://github.com/maxkrieg" target="_blank">github</a>.</p>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="row">
-                        <div class="portfolio-items isotopeWrapper clearfix" id="3">
-                            <article class="col-sm-4 isotopeItem">
-                                <h4>mytinerary</h4>
-                                <p><small>Itinerary-building app: Rails API with a PostgresQL database, consumed by front end in pure HTML, CSS, JavaScript, and jQuery.</small></p>
-                                <div class="portfolio-item">
-                                    <img src="images/portfolio/mytinerary.png" alt="" />
-                                    <div class="portfolio-desc align-center">
-                                        <div class="folio-info">
-                                            <a href="http://maxkrieg.github.io/mytinerary_app" target="_blank" class="fancybox">
-                                                <h5>mytinerary</h5>
-                                                <i class="fa fa-list-alt fa-2x"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="col-sm-4 isotopeItem">
-                                <h4>TuringSurvey</h4>
-                                <p><small>Survey building app: Back end in Node.js and Express.js framework with MongoDB database.  Server-side rendering using Jade, Stylus, and Nib.</small></p>
-                                <div class="portfolio-item">
-                                    <img src="images/portfolio/turingsurvey.png" alt="" />
-                                    <div class="portfolio-desc align-center">
-                                        <div class="folio-info">
-                                            <a href="https://turing-survey.herokuapp.com" target="_blank" class="fancybox">
-                                                <h5>TuringSurvey</h5>
-                                                <i class="fa fa-check-square-o fa-2x"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="col-sm-4 isotopeItem">
-                                <h4>OGRE Buddies</h4>
-                                <p><small>Peer-to-peer outdoor gear rental app, integration with <a href="http://meetup.com" target="_blank">meetup</a> API: Rails API with a PostgresQL database, consumed by AngularJS front end.</small></p>
-                                <div class="portfolio-item">
-                                    <img src="images/portfolio/ogre.png" alt=""/>
-                                    <div class="portfolio-desc align-center">
-                                        <div class="folio-info">
-                                            <a href="http://maxkrieg.github.io/ogre_app/dist/#/" class="fancybox">
-                                                <h5>OGRE Buddies</h5>
-                                                <i class="fa fa-tree fa-2x"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <div class="container">
-                <div class="heading text-center">
-                    <h2 id="contactMe">Connect with me</h2>
-                    <p>Want to work together on a project, discuss a cool idea, or just talk web dev? Hit me up!  I am also available for freelance work.</p>
-                    <h4><a href="mailto:hellomaxkrieg@gmail.com?Subject=Hello" class="fa fa-envelope email-link">  hellomaxkrieg@gmail.com</a></h4>
-                    <h2 id="blog">Stay up to date</h2>
-                    <p>Read my blog to find out what I'm currently working on!  <strong>what the heck why not</strong> is a log of my learnings as a web developer.</p>
-                    <script async src="https://static.medium.com/embed.js"></script><a class="m-collection" href="https://medium.com/what-the-heck-why-not">what the heck why not</a>
-                </div>
-            <div class="clear"></div>
-        </div>
-        <a id="footer-link" href="http://webThemez.com">WebThemez.com</a>
-    </footer>
-
-    <div id="footer" class="navbar navbar-default navbar-fixed-bottom bottom-navbar">
-      <div class="container">
-          <div class="row">
-              <div class="col-sm-12 text-center">
-                <div class="social text-center">
-                    <a href="mailto:hellomaxkrieg@gmail.com?Subject=Website%20Stuff" class="fa fa-envelope"></a>
-                    <a href="https://twitter.com/kriegmax" target="_blank"><i class="fa fa-twitter"></i></a>
-                    <a href="https://github.com/maxkrieg" target="_blank"><i class="fa fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/maxkrieg" target="_blank"><i class="fa fa-linkedin"></i></a>
-                    <a href="https://medium.com/what-the-heck-why-not" target="_blank">Blog</a>
-                </div>
-              </div>
-          </div>
+      <div>
+        <h3>Contact</h3>
+        <a href="mailto:hellomaxkrieg@gmail.com?Subject=Website%20Stuff">hellomaxkrieg@gmail.com</a>
       </div>
     </div>
-    <!--/.page-section-->
-    <a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a>
 
-    <!--[if lte IE 8]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><![endif]-->
-    <script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
-    <script src="js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="js/jquery.isotope.min.js" type="text/javascript"></script>
-    <script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
-    <script src="js/jquery.nav.js" type="text/javascript"></script>
-    <script src="js/jquery.cslider.js" type="text/javascript"></script>
-    <script src="js/custom.js" type="text/javascript"></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-65010028-1', 'auto');
-      ga('send', 'pageview');
+
+
+    <script src="https://use.fontawesome.com/769fee8a18.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.1.0.min.js"
+      integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
+      crossorigin="anonymous">
     </script>
-</body>
+    <script src="js/app.js" type="text/javascript"></script>
+  </body>
+
 </html>
