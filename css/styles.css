@@ -1,11 +1,12 @@
-body {
-  padding-bottom: 40px;
+a {
+  text-decoration: none;
 }
 
 .header {
   text-align: center;
   padding: 26px 10px;
-  background: #D3D3D3;
+  background: #181818;
+  color: #D3D3D3;
 }
 
 .header > * {
@@ -29,24 +30,38 @@ body {
 
 .header__icons a {
   font-size: 30px;
-  color: #000000;
+  color: #D3D3D3;
   margin: 0 10px;
   transition: color 0.25s ease-in-out;
 }
 
 .header__icons a:hover {
   cursor: pointer;
-  color: #127FC9;
+  color: #FFFFFF;
   transition: color 0.25s ease-in-out;
 }
 
-.header__icons a:hover {
+.header__icons a:active {
   cursor: pointer;
-  color: #0a4c78;
+  color: #FFFFFF;
 }
 
 .main {
   padding: 0 6%;
+}
+
+.main a {
+  transition: color 0.25s ease-in-out;
+  color: #127FC9;
+}
+
+.main a:visited {
+  color: #127FC9;
+}
+
+.main a:hover {
+  transition: color 0.25s ease-in-out;
+  color: #59a5d9;
 }
 
 @media (min-width: 600px) {
@@ -72,19 +87,33 @@ body {
   margin: 60px auto 0 auto;
 }
 
+
 .content__skills,
-.content__projects {
-  display: inline-block;
+.content__projects-blog {
   vertical-align: top;
-  width: 48%;
-  padding-left: 1%;
+  width: 100%;
+}
+
+@media (min-width: 750px) {
+
+  .content__skills,
+  .content__projects-blog {
+    display: inline-block;
+    width: 48%;
+    padding-left: 1%;
+  }
+
 }
 
 .content__header {
   font-weight: 300;
   margin: 0;
   font-size: 22px;
-  padding-left: 8%;
+}
+
+.content__description {
+  margin: 5px 0 0 0;
+  font-weight: 300;
 }
 
 .content__list {
@@ -92,6 +121,51 @@ body {
   font-weight: 200;
 }
 
-.skills__list > li {
-  margin-top: 5px;
+.content__list li {
+  line-height: 20px;
+}
+
+
+
+.blog-header {
+  margin-top: 40px;
+}
+
+.content__blog-link {
+  display: block;
+  margin: 10px 0 30px 0;
+}
+
+.skill-sublist li {
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 40px;
+  background: #181818;
+  color: #D3D3D3;
+}
+
+.footer h3 {
+  font-weight: 300;
+  margin: 0;
+  font-size: 22px;
+}
+
+.footer a {
+  display: block;
+  margin: 10px 0;
+  color: #D3D3D3;
+  transition: color 0.25s ease-in-out;
+}
+
+.footer a:hover {
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: color 0.25s ease-in-out;
 }

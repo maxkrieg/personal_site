@@ -1,7 +1,7 @@
 var app = {
   subheaderCarousel: function() {
     var types = [
-      'Full Stack Web Developer',
+      'Software Developer',
       'Skiier',
       'Climber',
       'Runner',
